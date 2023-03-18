@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs
+/Certificados.API/obj
+/Certificados.Domain/obj
+/Certificados.Extensions/obj
+/Certificados.Infra/obj
+/Certificados.Infra.Integration/obj
+/Certificados.Services/obj
+/obj

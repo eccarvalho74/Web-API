@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Certificados.API</name>
+    </assembly>
+    <members>
+        <member name="M:Certificados.API.Controllers.Core.CustomController.Result(Certificados.Domain.Core.dto.ServiceResult,System.Int32)">
+            <summary>
+            Gera resultado sem resposta em ServiceResult baseado no AJAX Security do OWASP.
+            <para>OWASP: https://cheatsheetseries.owasp.org/cheatsheets/AJAX_Security_Cheat_Sheet.html</para>
+            </summary>
+            <param name="statusCode"></param>
+            <param name="serviceResult"></param>
+            <returns>ObjectResult</returns>
+        </member>
+    </members>
+</doc>

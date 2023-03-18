@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Certificados.Domain\Certificados.Domain.csproj" />
+    <ProjectReference Include="..\Certificados.Extensions\Certificados.Extensions.csproj" />
+    <ProjectReference Include="..\Certificados.Infra.Integration\Certificados.Infra.Integration.csproj" />
+    <ProjectReference Include="..\Certificados.Infra\Certificados.Infra.csproj" />
+  </ItemGroup>
+
+
+
+
+</Project>
